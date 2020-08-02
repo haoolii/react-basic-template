@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Pet from './Pet';
+// import Pet from './Pet';
+import SearchParams from './SearchParams';
 
 const App = () => {
   // return React.createElement('div', { id: 'test-react' }, [
@@ -21,9 +22,7 @@ const App = () => {
   return (
     <div>
       <h1 id="Adopt">Adopt me!</h1>
-      <Pet name="Luna" animal="Dog" breed="Havanese" />
-      <Pet name="Pepper" animal="Bird" breed="Cockatiel" />
-      <Pet name="Doink" animal="Cat" breed="Mixed" />
+      <SearchParams></SearchParams>
     </div>
   );
 };
